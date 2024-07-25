@@ -1,3 +1,26 @@
+# Livewire Poll App
+
+*EN*
+This project is a simple poll application developed using the Livewire framework. It allows users to create, edit, and vote on polls directly from the interface without the need to reload the page, thanks to Livewire's ability to handle real-time server-side interactions using AJAX techniques.
+
+*BR*
+Este projeto é um aplicativo simples de enquete desenvolvido com o framework Livewire. Ele permite aos usuários criar, editar e votar em enquetes diretamente na interface, sem a necessidade de recarregamento da página, graças à capacidade do Livewire de realizar interações em tempo real no lado do servidor utilizando técnicas de AJAX.
+
+## Features
+
+- **Create Polls**: Users can create new polls by specifying available options.
+- **Edit Poll Options**: Functionality to edit the options of an existing poll.
+- **List Polls**: Component to list all available polls.
+- **Vote on Polls**: Ability to vote on poll options directly on the page with dynamic result updates.
+
+## Technologies Used
+
+- **Livewire**: A PHP framework that allows the development of reactive user interfaces without writing JavaScript.
+- **PHP and Laravel**: Used for the backend and data management.
+- **MySQL**: Relational database for storing polls and results, deployed as a Docker container.
+- **Docker**: Used to containerize and manage the MySQL database instance, providing an isolated and consistent environment for development and deployment.
+- **Data Validation**: Implemented with Livewire to ensure polls are created and updated correctly.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
